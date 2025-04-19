@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    background-color: #f7f5f8;
+    font-family: Arial, sans-serif;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .logo img {
+    height: 30px;
+    border-radius: 8px;
+  }
+  
+ 
+  
+  .navbar-left {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .nav-links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .nav-links a,
+  .dropbtn {
+    color: #000;
+    text-decoration: none;
+    background: none;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .new-badge {
+    background: linear-gradient(to right, #ff7e00, #ff4b2b);
+    color: white;
+    font-size: 10px;
+    padding: 2px 5px;
+    border-radius: 5px;
+    margin-left: 5px;
+  }
+  
+  .navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .employer-login {
+    color: #0c9b7a;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .candidate-login {
+    background-color: #207558;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .nav-links,
+    .navbar-right {
+      display: none;
+    }
+  
+    .navbar {
+      justify-content: space-between;
+    }
+  
+    .logo{
+      margin-left: 10px;
+    }
+  }
+  
+  @media (min-width:768px) {
+    .Mobile-section{
+      display: none;
+    }
+
+
+  }

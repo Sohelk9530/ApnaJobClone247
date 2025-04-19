@@ -1,0 +1,148 @@
+
+/* testimonal_desc css */
+.testimonial-container {
+    background-color: #177c65;
+    color: white;
+    padding: 60px 30px;
+    border-radius: 8px;
+    text-align: left;
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .quote-icon {
+    font-size: 100px;
+    background-color: rgba(255, 255, 255, 0.2);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .testimonial-text {
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 1.4;
+  }
+  
+  .rating-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+  
+  .rating-label {
+    font-size: 14px;
+    color: #e3e3e3;
+  }
+  
+  .stars span {
+    font-size: 22px;
+    color: #ffb800;
+  }
+  
+  /* Styling for half star */
+  .half-star {
+    background: linear-gradient(90deg, #ffb800 50%, #fff 50%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  /* testimonalcard css */
+  .testimonial-card {
+    background-color: #f2fdf9;
+    border-radius: 12px;
+    padding: 20px;
+    max-width: 600px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .top-section {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+  
+  .profile-pic {
+    width: 64px;
+    height: 64px;
+    border-radius: 12px;
+    object-fit: cover;
+  }
+  
+  .info {
+    flex: 1;
+  }
+  
+  .name-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .name-row h3 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .badge {
+    background-color: #e6f6f0;
+    color: #007b5e;
+    border: 1px solid #cceee1;
+    padding: 4px 8px;
+    font-size: 12px;
+    border-radius: 8px;
+    font-weight: 600;
+  }
+  
+  .rating {
+    font-size: 14px;
+    margin-top: 4px;
+  }
+  
+  .stars {
+    margin-left: 8px;
+    color: #ffc107;
+  }
+  
+  .half-star {
+    background: linear-gradient(90deg, #ffc107 50%, #ddd 50%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .testimonial-message {
+    margin-top: 16px;
+    color: #333;
+    line-height: 1.5;
+    font-size: 15px;
+  }
+  
+  .cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    overflow:scroll;
+
+  }
+  .main-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(384px, 1fr));
+    background-color: #EAF8F4;
+ }

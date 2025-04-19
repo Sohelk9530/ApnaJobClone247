@@ -1,0 +1,61 @@
+.top-companies-section {
+    padding: 50px 20px;
+    background-color: #f8f5fc;
+    text-align: center;
+  }
+  
+  .top-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #1e1335;
+    margin-bottom: 40px;
+  }
+  
+  .company-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 24px;
+    justify-items: center;
+  }
+  
+  .company-card {
+    background-color: white;
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+    max-width: 320px;
+    width: 100%;
+    text-align: left;
+    transition: transform 0.2s ease;
+  }
+  
+  .company-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .company-logo {
+    height: 40px;
+    margin-bottom: 16px;
+    object-fit: contain;
+  }
+  
+  .company-name {
+    font-size: 18px;
+    font-weight: 600;
+    color: #1e1335;
+    margin-bottom: 8px;
+  }
+  
+  .company-desc {
+    font-size: 14px;
+    color: #444;
+    margin-bottom: 16px;
+  }
+  
+  .company-link {
+    font-size: 15px;
+    color: #009b6d;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  

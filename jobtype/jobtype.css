@@ -1,0 +1,78 @@
+.job-types-section {
+    padding: 40px 20px;
+    background-color: #fefeff;
+  }
+  
+  .section-title {
+    font-size: 32px;
+    color: #1e1335;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  .job-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+  }
+  
+  .job-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 16px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+    min-height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .trend {
+    font-size: 14px;
+    color: #6c6c6c;
+    margin-bottom: 8px;
+  }
+  
+  .job-card h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #1e1335;
+    margin-bottom: 10px;
+    z-index: 1;
+  }
+  
+  .view-link {
+    font-size: 14px;
+    color: #1e1335;
+    font-weight: 500;
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  .job-image {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 150px;
+    object-fit: contain;
+    z-index: 0;
+    opacity: 1;
+  }
+  
+  /* Responsive text center for smaller screens */
+  @media (max-width: 768px) {
+    .section-title {
+      text-align: center;
+    }
+  
+    .job-card {
+      text-align: left;
+    }
+  
+    .job-image {
+      height: 80px;
+    }
+  }
+  
